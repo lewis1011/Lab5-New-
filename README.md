@@ -604,7 +604,6 @@ Operating System File System
 
 **Report Prepared by:** Lewis Ngendahimana  
 **Date of Submission:** April 25, 2026  
-**Instructor:** [INSERT INSTRUCTOR NAME]  
 **Lab Session:** Gako Campus - Mobile Computing Lab
 
 ---
