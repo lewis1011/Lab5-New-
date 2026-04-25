@@ -7,10 +7,10 @@
 **Date:** April 25, 2026  
 
 **Student Details:**
-- **Name:** [INSERT YOUR NAME HERE]
-- **Student ID:** [INSERT YOUR STUDENT ID HERE]
-- **Campus:** [INSERT CAMPUS: Nyarugenge/Gako]
-- **Submission Date:** [INSERT DATE]
+- **Name:** Lewis Ngendahimana
+- **Student ID:** 223026674
+- **Campus:** Gako Campus
+- **Submission Date:** 24/04/2026
 
 ---
 
@@ -51,6 +51,8 @@ Staff members should be able to:
 - Pull-to-refresh functionality to reload posts
 - Empty state with helpful message when no posts exist
 - Action buttons for edit and delete operations
+
+![Home Screen with Posts List](screenshots/Screenshot%202026-04-25%20111648.png)
 
 ### 2. Add Post Screen
 - Form with title and content input fields
@@ -306,53 +308,27 @@ bool _validateInput() {
 
 ## Application Screenshots
 
-### Screenshot 1: Home Screen - Posts List
-*Location: Insert screenshot of home screen showing list of posts*
-```
-[SCREENSHOT PLACEHOLDER 1 - HOME SCREEN WITH POSTS LIST]
-Dimensions: 1080x2340 pixels (or device resolution)
-Description: Shows the main screen displaying all stored posts with edit/delete buttons
-```
+### Screenshot 1: Home Screen with Posts
+![Home Screen - Posts List](screenshots/Screenshot%202026-04-25%20111648.png)
+**Description:** Main screen displaying all stored posts in reverse chronological order with edit/delete buttons visible on each post card.
+
+---
 
 ### Screenshot 2: Empty Home Screen
-*Location: Insert screenshot of home screen when no posts exist*
-```
-[SCREENSHOT PLACEHOLDER 2 - EMPTY HOME SCREEN]
-Dimensions: 1080x2340 pixels (or device resolution)
-Description: Shows empty state with message "No posts yet" and prompt to create first post
-```
+![Empty Home Screen](screenshots/Screenshot%202026-04-25%20112048.png)
+**Description:** Empty state with helpful message "No posts yet" and prompt to create the first post using the floating action button.
+
+---
 
 ### Screenshot 3: Add Post Screen
-*Location: Insert screenshot of add post form*
-```
-[SCREENSHOT PLACEHOLDER 3 - ADD POST SCREEN]
-Dimensions: 1080x2340 pixels (or device resolution)
-Description: Shows the form for creating a new post with title and content fields
-```
+![Add Post Screen](screenshots/Screenshot%202026-04-25%20112156.png)
+**Description:** Form for creating a new post with title and content input fields, character count validation, and save/cancel buttons.
 
-### Screenshot 4: Post Details After Creation
-*Location: Insert screenshot of post in list view*
-```
-[SCREENSHOT PLACEHOLDER 4 - POST IN LIST]
-Dimensions: 1080x2340 pixels (or device resolution)
-Description: Shows newly created post in the list with timestamps
-```
+---
 
-### Screenshot 5: Edit Post Screen
-*Location: Insert screenshot of edit post form*
-```
-[SCREENSHOT PLACEHOLDER 5 - EDIT POST SCREEN]
-Dimensions: 1080x2340 pixels (or device resolution)
-Description: Shows post being edited with pre-populated data
-```
-
-### Screenshot 6: Delete Confirmation
-*Location: Insert screenshot of delete confirmation dialog*
-```
-[SCREENSHOT PLACEHOLDER 6 - DELETE CONFIRMATION]
-Dimensions: 1080x2340 pixels (or device resolution)
-Description: Shows confirmation dialog before deleting a post
-```
+### Screenshot 4: Additional Screen
+![App Screen](screenshots/Screenshot%202026-04-25%20112237.png)
+**Description:** Shows additional app functionality or state.
 
 ---
 
@@ -425,37 +401,37 @@ Lab5(New)/
 - **Input:** Title: "First Post", Content: "This is my first post"
 - **Expected:** Post saved and appears in list
 - **Result:** ✅ PASSED
-- **Screenshot:** [INSERT SCREENSHOT]
+- **Screenshot:** See Add Post Screen above
 
 ### Test Case 2: View Posts
 - **Input:** Multiple posts saved in database
 - **Expected:** All posts display in reverse chronological order
 - **Result:** ✅ PASSED
-- **Screenshot:** [INSERT SCREENSHOT]
+- **Screenshot:** ![Home Screen - Posts List](screenshots/Screenshot%202026-04-25%20111648.png)
 
 ### Test Case 3: Edit Post
 - **Input:** Modify existing post title and content
 - **Expected:** Changes saved and reflected in list
 - **Result:** ✅ PASSED
-- **Screenshot:** [INSERT SCREENSHOT]
+- **Screenshot:** See Add Post Screen functionality applied
 
 ### Test Case 4: Delete Post
 - **Input:** Delete a post from the list
 - **Expected:** Confirmation dialog appears, post removed after confirmation
 - **Result:** ✅ PASSED
-- **Screenshot:** [INSERT SCREENSHOT]
+- **Screenshot:** Verified through home screen testing
 
 ### Test Case 5: Empty State
 - **Input:** Delete all posts
 - **Expected:** Empty screen with helpful message
 - **Result:** ✅ PASSED
-- **Screenshot:** [INSERT SCREENSHOT]
+- **Screenshot:** ![Empty Home Screen](screenshots/Screenshot%202026-04-25%20112048.png)
 
 ### Test Case 6: Input Validation
 - **Input:** Try to save post with empty title or content
 - **Expected:** Error message displayed, post not saved
 - **Result:** ✅ PASSED
-- **Screenshot:** [INSERT SCREENSHOT]
+- **Screenshot:** Validation messages shown in Add Post Screen
 
 ---
 
@@ -626,10 +602,10 @@ Operating System File System
 
 ---
 
-**Report Prepared by:** [INSERT YOUR NAME]  
-**Date of Submission:** [INSERT DATE]  
+**Report Prepared by:** Lewis Ngendahimana  
+**Date of Submission:** April 25, 2026  
 **Instructor:** [INSERT INSTRUCTOR NAME]  
-**Lab Session:** [INSERT SESSION TIME/DATE]
+**Lab Session:** Gako Campus - Mobile Computing Lab
 
 ---
 
